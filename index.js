@@ -3,7 +3,7 @@ const path = require('node:path');
 
 // Require the necessary discord.js classes
 const { Client, Collection, Events, GatewayIntentBits } = require('discord.js');
-const { token } = require('./config.json');
+// const { token } = require('./config.json');
 const token = process.env.DISCORD_TOKEN;
 
 // Create a new client instance
